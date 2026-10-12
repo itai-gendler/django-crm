@@ -1,0 +1,19 @@
+{
+  "scenarioKinds": [
+    {
+      "id": "primary",
+      "name": "Primary",
+      "description": "Established successful operation or supported processing branch."
+    },
+    {
+      "id": "validation",
+      "name": "Validation",
+      "description": "Distinguished invalid input, identity lookup failure or operation refusal."
+    },
+    {
+      "id": "edge",
+      "name": "Edge",
+      "description": "Conflict, missing dependency, processing failure or exceptional observable outcome."
+    }
+  ]
+}
