@@ -10,6 +10,13 @@
     "email"
   ],
   "license": "AGPL-3.0-only",
+  "limitations": [
+    "Staff work in Django Admin screens; integrations that need a REST API add one with third-party Django packages.",
+    "Mail is sent and received through the organization's own email accounts over SMTP and IMAP.",
+    "Mailings from a sales manager's main email account go only to VIP recipients; other recipients are reached through additional accounts.",
+    "Each email account sends at most the configured number of mailing messages per day, optionally only during business hours.",
+    "Only email tied to a Request or Deal by its ticket is imported automatically."
+  ],
   "languages": [
     "ar",
     "cs",
@@ -60,4 +67,4 @@ DjangoCRM receives inquiries, manages Companies, Contact persons, Leads and Deal
 
 ## Intent
 
-Keep commercial records and responsibilities connected while retaining their separate lifecycles. A Deal next step, a work assignment, a Payment and a shipment are different product facts.
+Give small and mid-size businesses one self-hosted system for inquiries, sales, tasks, correspondence and mailings, keeping each commercial record connected to the others while it follows its own lifecycle.
